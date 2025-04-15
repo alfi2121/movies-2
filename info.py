@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+cegObh_tQjY0Mm
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002536750188').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbajority&appName=learningbots")
-DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb://zubairalfi:zubairalfi@ac-qmmqxzn-shard-00-00.edrxg3l.mongodb.net:27017,ac-qmmqxzn-shard-00-01.edrxg3l.mongodb.net:27017,ac-qmmqxzn-shard-00-02.edrxg3l.mongodb.net:27017/?replicaSet=atlas-10f3lb-shard-0&ssl=true&authSource=admin&retryWrites=true&w=majority&appName=zubairalfi")
+DATABASE_NAME = environ.get('DATABASE_NAME', "zubairalfi")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
